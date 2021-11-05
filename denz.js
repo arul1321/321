@@ -5248,7 +5248,7 @@ break
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*_©Yuzzu Kamiyaka_*',
+    footerText:'*_Arul-BOT_*',
     buttons: punten,
     headerType: 1
 }
