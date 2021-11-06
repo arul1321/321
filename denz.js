@@ -1071,11 +1071,13 @@ reply('http://youtube.com/c/KurrXd')
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 fill =`Hai Kak ${pushname}, ${tampilUcapan}
 
-_*Instagram Owner*_ ٬࿊⃟👉🏻 https://bit.ly/3mCJhEu
+_*Instagram*_ ٬࿊⃟👉🏻 https://bit.ly/3mCJhEu
 
 _*Github*_ ٬࿊⃟👉🏻 https://bit.ly/3pXHqfz
 
 _*Official Website*_ ٬࿊⃟👉🏻 https://bit.ly/2Y7Z5pr
+
+_*Official Group*_ => https://chat.whatsapp.com/FngRAHziehG3pabmvnk4eh
 
 Jika Button Tidak Muncul Ketik .allmenu`
 menu =`Arul-BOT🦈`
