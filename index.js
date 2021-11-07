@@ -93,11 +93,11 @@ exec(`cd /sdcard/download && play *mp3`)
 			}
 			let buff = await getBuffer(ppimg)
 			masuk =`Halo @${num.split('@')[0]}\nSelamat Datang Di ${mdata.subject}\n\n*Jangan Lupa Isi*\n*Nama* :\n*Umur* :\n*Gender* :\n*Askot* :\n\nEnjoy Jangan Lupa Kenalan\nKlik Button Di Bawah Untuk Memulai Bot\nNote Jika Tidak Ada Ketik .allmenu`
-			gbutsan = [{buttonId:'SERAH',buttonText:{displayText:'👋Welcome'},type:1}]
+			gbutsan = [{buttonId:'allmenu',buttonText:{displayText:'*Menu*'},type:1}]
 			mhan = await denz.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: buff})
 const buttonMessages = { imageMessage: mhan.message.imageMessage,
 contentText: `${masuk}`,
-footerText: `Welcome  Information`, 
+footerText: `Welcome  By Arul-BOTZ`, 
 buttons: gbutsan,
 headerType: 4 }
 			denz.sendMessage(mdata.id, buttonMessages, MessageType.buttonsMessage, {thumbnail: fs.readFileSync('./denz.jpg'), "contextInfo": { mentionedJid: [num]}, caption: 'Tes', quoted: fkontakk})
@@ -113,11 +113,11 @@ headerType: 4 }
 			}
 			let buff = await getBuffer(ppimg)
 			keluar =`Selamat tinggal @${num.split('@')[0]}\nSemoga tentang disana`
-			gbutsan = [{buttonId:'SERAH',buttonText:{displayText:'👋Byee'},type:1}]
+			gbutsan = [{buttonId:'owner',buttonText:{displayText:'*Owner*'},type:1}]
 			mhan = await denz.prepareMessage(mdata.id, buff, MessageType.image, {thumbnail: buff})
 const buttonMessages = { imageMessage: mhan.message.imageMessage,
 contentText: `${keluar}`,
-footerText: `Leave Information`,
+footerText: `Leave By Arul-BOTZ`,
 buttons: gbutsan,
 headerType: 4 }
 			denz.sendMessage(mdata.id, buttonMessages, MessageType.buttonsMessage, { thumbnail: fs.readFileSync('./denz.jpg'), "contextInfo": { mentionedJid: [num]}, caption: 'Tes', quoted: fkontakk})
