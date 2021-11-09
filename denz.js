@@ -866,7 +866,7 @@ console.log(e)
 				denz.sendMessage(from, qul, MessageType.extendedText, anoim)
 			}
 			function Json(objectPromise) {
-var objectString = JSON.stringify(objectPromise, null, 2)
+var objectString = JSON.stringify(obj7ectPromise, null, 2)
 var parse = util.format(objectString)
 if (objectString == undefined) {
 parse = util.format(objectPromise)
@@ -1071,21 +1071,19 @@ reply('http://youtube.com/c/KurrXd')
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 fill =`Hai Kak ${pushname}, ${tampilUcapan}
 
-_*Instagram*_ ٬࿊⃟👉🏻 https://bit.ly/3mCJhEu
-
-_*Github*_ ٬࿊⃟👉🏻 https://bit.ly/3pXHqfz
-
-_*Official Website*_ ٬࿊⃟👉🏻 https://bit.ly/2Y7Z5pr
-
+_*Instagram*_ ٬࿊⃟ 
+https://bit.ly/3mCJhEu
+_*Github*_ ٬࿊⃟ 
+https://bit.ly/3pXHqfz
+_*Official Website*_ ٬࿊⃟ 
+https://bit.ly/2Y7Z5pr
 _*Official Group*_
  https://chat.whatsapp.com/FngRAHziehG3pabmvnk4eh
 
 Jika Button Tidak Muncul Ketik .allmenu`
 menu =`Arul-BOT🦈`
 gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'*SHOW MENU*'},type:1},
-{buttonId:`owner`,buttonText:{displayText:'*OWNER*'},type:1},
-{buttonId:`command`,buttonText:{displayText:'*COMMAND*'},type:1}
+{buttonId:`allmenu`,buttonText:{displayText:'*SHOW MENU*'},type:1},{buttonId:`command`,buttonText:{displayText:'*COMMAND*'},type:1}
 ]
 mhan = await denz.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
