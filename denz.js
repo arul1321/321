@@ -1082,9 +1082,7 @@ _*Official Group*_
 
 Jika Button Tidak Muncul Ketik .allmenu`
 menu =`Arul-BOT🦈`
-gbutsan = [
-{buttonId:`allmenu`,buttonText:{displayText:'*SHOW MENU*'},type:1},{buttonId:`command`,buttonText:{displayText:'*COMMAND*'},type:1}
-]
+gbutsan = [{buttonId:`command`,buttonText:{displayText:'*COMMAND*'},type:1}]
 mhan = await denz.prepareMessage(from, ofrply, image, {thumbnail: ofrply})
 const btnmenu = {
 imageMessage: mhan.message.imageMessage,
